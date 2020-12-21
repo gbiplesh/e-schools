@@ -1,0 +1,220 @@
+body {
+	background-color: black;
+	color: white ;
+	font-family: "hero light", Geneva, sans-serif; 
+	font-size: 17px;
+}
+
+a, a:link, a:visited {
+	color: whitesmoke;
+	text-decoration:none;
+
+}
+
+
+a:hover {
+	color: #332424;
+	text-decoration:none;
+
+}
+a {
+	text-decoration:none;
+}
+
+
+h1 { font-family: "hero light", Geneva, sans-serif; }
+h2 { font-family: "hero light", Geneva, sans-serif; }
+h3 { font-family: "hero light", Geneva, sans-serif; }
+h4 { font-family: "hero light", Geneva, sans-serif; }
+h5 { font-family: "hero light", Geneva, sans-serif; }
+h6 { font-family: "hero light", Geneva, sans-serif; }
+
+.center {
+	text-align: center;
+	margin: 0px auto;
+	max-width: 50%;
+}
+
+.previous{
+	float:left;
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	margin: 20px 0 0px 0;
+}
+
+#header #site_title {
+	float: left;
+	width: 380px;
+}
+
+#header  #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#header  #site_title h1 span {
+	padding-top: 8px;
+	display: block;
+	text-align: right;
+	font-size: 13px;
+	color: whitesmoke;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+#header #header_login {
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+
+}
+
+#header #header_login .form-inline {
+	position: relative;
+}
+
+#header #header_login #buttons{
+	position: absolute;
+	top: 25px;
+	left: 0px;
+	padding-top: 10px;
+}
+
+#header #logos {
+	float: right;
+	margin: 0px 10px;
+}
+
+
+
+.cleaner{ 
+	clear: both;
+	display: block;
+	height: 10px;
+	width: 100%;
+}
+
+/*Menu*/
+
+#menu {
+	outline: 1px solid whitesmoke;
+	position: relative;
+}
+
+#sidenav {
+	position: relative;
+	top: -40px;
+	left: 0px;
+	float: left;
+}
+
+#img_1 {
+	position: relative;
+	top: -36px;
+	margin-bottom: -35px;
+}
+
+.w3-closenav {
+	position:absolute !important;
+	right:20px!important;
+	top:2px!important;
+	padding:0 !important;
+}
+.w3-closenav:hover {
+	background-color:
+	transparent !important;
+	color:#fff;
+}
+
+.w3-sidenav {
+	position: absolute!important;
+	overflow: visible;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+}
+/*Menu Ends*/
+
+/*Below Menu*/
+
+.login_box {
+	max-width: 300px;
+	margin: 10px auto;
+}
+
+.input_group {
+	margin: 10px
+}
+
+
+.active {
+    background-color: #332424;
+}
+
+/*table*/
+.edit_table{
+    border-collapse: collapse;
+    border: solid transparent;
+}
+
+.edit_table {
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+/*table*/
+
+/*Button Styling*/
+
+.btn-default {
+	background-color: #4D4D4D;
+	border: 0px;
+	color: whitesmoke;
+}
+
+.btn-default:hover {
+	background-color: whitesmoke;
+	border-color: #332424;
+	color: #332424;
+}
+
+/*Button styling*/
+
+
+.div_style_for_grids {
+	height: auto;
+	width: 66%;
+	background-color: black;
+	color: whitesmoke;
+	padding: 61px;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 500;
+	margin-left: 80px;
+	cursor: default;
+}
+}
